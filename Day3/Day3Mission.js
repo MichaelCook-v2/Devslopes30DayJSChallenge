@@ -22,6 +22,22 @@ var hunting = "Bow";
 var food = "Brownie";
 
 
-var meltdown = person[1] + vehicleType[1] + petName[3] + city[2] + state[5] + region[1] + hunting[-1] + food[3];
+var meltdown = person[1] + vehicleType[1] + petName[3] + city[1] + state[5] + region[1] + hunting[2] + food[3];
 
 console.log(meltdown);
+
+//Advanced String within String
+
+var firstString = "Help";
+var secondString = "Hello World!";
+
+var stringInStringTrue = firstString.includes("Help");
+
+console.log(stringInStringTrue);
+
+var firstString = "Cars";
+var secondString = "Truck";
+
+var stringInStringFalse = firstString.includes("Truck");
+
+console.log(stringInStringFlase);
