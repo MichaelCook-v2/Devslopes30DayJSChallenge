@@ -22,7 +22,7 @@ var hunting = "Bow";
 var food = "Brownie";
 
 
-var meltdown = person[1] + vehicleType[1] + petName[3] + city[1] + state[5] + region[1] + hunting[2] + food[3];
+var meltdown = (person[0] + vehicleType[1] + petName[3] + city[0] + state[5] + region[1] + hunting[2] + food[3]);
 
 console.log(meltdown);
 
