@@ -24,3 +24,6 @@ console.log(colors);
 
 var evenMoreColors =colors.concat(moreColors);
 console.log(evenMoreColors);
+
+var colorsToUpper = colors.map(colors=>colors.toUpperCase());
+console.log(colorsToUpper);
