@@ -4,6 +4,7 @@ let noOrangeArray =fruit.splice(fruit,2);
 console.log(fruit);
 
 let popArray= fruit.pop();
+
 console.log(fruit);
 
 let addPear = fruit.unshift('Pear');
